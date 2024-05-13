@@ -1,4 +1,9 @@
-namespace Catalog.API.Behaviours;
+
+using BuildingBlocks.CQRS;
+using FluentValidation;
+using MediatR;
+
+namespace BuildingBlocks.Behaviours;
 
 public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : ICommand<TResponse>

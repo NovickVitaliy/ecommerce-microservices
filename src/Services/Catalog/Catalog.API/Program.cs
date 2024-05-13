@@ -1,5 +1,5 @@
 using System.Net.Mime;
-using Catalog.API.Behaviours;
+using BuildingBlocks.Behaviours;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
