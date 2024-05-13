@@ -9,3 +9,5 @@ global using FluentValidation;
 global using BuildingBlocks.CQRS;
 global using FluentValidation;
 global using MediatR;
+global using BuildingBlocks.Behaviours;
+global using BuildingBlocks.Exceptions.Handler;
