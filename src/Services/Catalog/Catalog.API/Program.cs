@@ -1,10 +1,18 @@
-var builder = WebApplication.CreateBuilder(args);
+using Catalog.API.Behaviours;
 
-builder.Services.AddCarter();
+var builder = WebApplication.CreateBuilder(args);
+var assembly = typeof(Program).Assembly;
+
 builder.Services.AddMediatR(configuration =>
 {
-    configuration.RegisterServicesFromAssembly(typeof(Program).Assembly);
+    configuration.RegisterServicesFromAssembly(assembly);
+    configuration.AddOpenBehavior(typeof(ValidationBehaviour<,>));
 });
+
+builder.Services.AddValidatorsFromAssembly(assembly);
+
+builder.Services.AddCarter();
+
 builder.Services.AddMarten(options =>
 {
     options.Connection(builder.Configuration.GetConnectionString("Database") 
