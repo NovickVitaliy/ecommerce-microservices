@@ -11,3 +11,4 @@ global using FluentValidation;
 global using MediatR;
 global using BuildingBlocks.Behaviours;
 global using BuildingBlocks.Exceptions.Handler;
+global using Catalog.API.Data;
