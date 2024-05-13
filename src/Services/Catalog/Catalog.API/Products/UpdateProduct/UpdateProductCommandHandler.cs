@@ -51,7 +51,7 @@ public class UpdateProductCommandHandler : ICommandHandler<UpdateProductCommand,
 
         var product = await _documentSession.LoadAsync<Product>(command.Id, cancellationToken);
 
-        if (product is null) throw new ProductNotFoundException();
+        if (product is null) throw new ProductNotFoundException(command.Id);
 
         product.Name = command.Name;
         product.Description = command.Description;

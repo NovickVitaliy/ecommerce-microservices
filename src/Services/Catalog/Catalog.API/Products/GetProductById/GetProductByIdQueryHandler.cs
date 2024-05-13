@@ -21,7 +21,7 @@ public class GetProductByIdQueryHandler : IQueryHandler<GetProductByIdQuery, Get
 
         var result = await _documentSession.LoadAsync<Product>(query.Id, cancellationToken);
         
-        if (result is null) throw new ProductNotFoundException();
+        if (result is null) throw new ProductNotFoundException(query.Id);
 
         return new GetProductByIdResult(result);
     }
