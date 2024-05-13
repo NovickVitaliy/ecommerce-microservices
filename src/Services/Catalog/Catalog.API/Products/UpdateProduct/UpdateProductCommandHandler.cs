@@ -23,7 +23,7 @@ public class UpdateProductCommandHandler : ICommandHandler<UpdateProductCommand,
 
     public async Task<UpdateProductResult> Handle(UpdateProductCommand command, CancellationToken cancellationToken)
     {
-        _logger.LogInformation("UpdateProductCommandHandler.Handle called with {@Query}", command);
+        _logger.LogInformation("UpdateProductCommandHandler.Handle called with {@Command}", command);
 
         var product = await _documentSession.LoadAsync<Product>(command.Id, cancellationToken);
 

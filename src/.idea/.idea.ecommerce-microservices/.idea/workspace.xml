@@ -11,14 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59534878-ef91-416e-9611-556841c4820f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Products/UpdateProduct/UpdateProductCommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Products/UpdateProduct/UpdateProductEndpoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Products/DeleteProduct/DeleteProductCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Products/DeleteProduct/DeleteProductEndpoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Products/UpdateProduct/UpdateProductCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Products/UpdateProduct/UpdateProductCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.pdb" afterDir="false" />
@@ -254,6 +266,7 @@
       <workItem from="1715455098404" duration="481000" />
       <workItem from="1715512383996" duration="4017000" />
       <workItem from="1715537266577" duration="8861000" />
+      <workItem from="1715605257976" duration="1114000" />
     </task>
     <servers />
   </component>
@@ -305,6 +318,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Catalog/Catalog.API/Products/DeleteProduct/DeleteProductEndpoint.cs</url>
+          <line>14</line>
+          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Catalog\Catalog.API\Products\DeleteProduct\DeleteProductEndpoint.cs" containingFunctionPresentation="Lambda expression inside Method 'AddRoutes'">
+            <startOffsets>
+              <option value="426" />
+            </startOffsets>
+            <endOffsets>
+              <option value="474" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
