@@ -11,55 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59534878-ef91-416e-9611-556841c4820f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Behaviours/ValidationBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/BuildingBlocks.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/BuildingBlocks.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/BuildingBlocks.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/BuildingBlocks.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/GlobalUsing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/GlobalUsing.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Products/CreateProduct/CreateProductCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Products/CreateProduct/CreateProductCommandHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Products/UpdateProduct/UpdateProductCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Products/UpdateProduct/UpdateProductCommandHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/FluentValidation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/FluentValidation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Catalog.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Catalog.API.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/ref/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/ref/Catalog.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/refint/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/refint/Catalog.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +55,7 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -106,29 +70,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Catalog.API: https.executor&quot;: &quot;Debug&quot;,
-    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Catalog.API: https.executor": "Debug",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.23863636",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\User\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\User\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RiderProblemsViewState">
     <option name="proportion" value="0.5363766" />
   </component>
@@ -288,13 +253,14 @@
       <workItem from="1715455098404" duration="481000" />
       <workItem from="1715512383996" duration="4017000" />
       <workItem from="1715537266577" duration="8861000" />
-      <workItem from="1715605257976" duration="4625000" />
+      <workItem from="1715605257976" duration="5337000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
