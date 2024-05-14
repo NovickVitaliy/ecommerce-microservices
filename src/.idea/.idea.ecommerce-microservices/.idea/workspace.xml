@@ -17,10 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59534878-ef91-416e-9611-556841c4820f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/DeleteBasket/DeleteBasketCommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Data/BasketRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Data/IBasketRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Exceptions/BasketNotFoundException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Data/CachedBasketRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
@@ -33,11 +31,6 @@
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/DeleteBasket/DeleteBasketEndpoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/DeleteBasket/DeleteBasketEndpoints.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/DeleteBasket/DeleteBasketHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/GetBasket/GetBasketQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/GetBasket/GetBasketQueryHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/StoreBasket/StoreBaskerCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/StoreBasket/StoreBaskerCommandHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/GlobalUsings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/GlobalUsings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/Basket.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/Basket.API.deps.json" afterDir="false" />
@@ -48,11 +41,9 @@
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -134,14 +125,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.Basket.API: https.executor": "Debug",
+    ".NET Launch Settings Profile.Basket.API: https.executor": "Run",
     ".NET Launch Settings Profile.Catalog.API: https.executor": "Debug",
     "Docker.docker-compose.override.yml: Compose Deployment.executor": "Run",
     "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.14376996",
+    "XThreadsFramesViewSplitterKey": "0.29801324",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -162,7 +153,7 @@
   <component name="RiderProblemsViewState">
     <option name="proportion" value="0.5363766" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Basket.API: https">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="Catalog.API" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -316,6 +307,27 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Basket.API/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="basket.api" />
+          <option name="containerName" value="basket.api" />
+          <option name="contextFolderPath" value="C:\Users\User\Desktop\projects\ecommerce-microservices\src" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Services/Basket/Basket.API/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="Catalog.API/Dockerfile (1)" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -405,6 +417,7 @@
       <item itemvalue=".NET Launch Settings Profile.Catalog.API: https" />
       <item itemvalue=".NET Launch Settings Profile.Catalog.API: IIS Express" />
       <item itemvalue=".NET Project.Catalog.API" />
+      <item itemvalue="Docker.Basket.API/Dockerfile" />
       <item itemvalue="Docker.Catalog.API/Dockerfile" />
       <item itemvalue="Docker.Catalog.API/Dockerfile (1)" />
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
@@ -431,7 +444,7 @@
       <workItem from="1715537266577" duration="8861000" />
       <workItem from="1715605257976" duration="19022000" />
       <workItem from="1715673141440" duration="213000" />
-      <workItem from="1715673384951" duration="6703000" />
+      <workItem from="1715673384951" duration="10382000" />
     </task>
     <servers />
   </component>
@@ -499,30 +512,43 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Services/Basket/Basket.API/Basket/StoreBasket/StoreBaskerEndpoints.cs</url>
-          <line>12</line>
-          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\Basket\StoreBasket\StoreBaskerEndpoints.cs" containingFunctionPresentation="Lambda expression inside Method 'AddRoutes'">
+          <url>file://$PROJECT_DIR$/Services/Basket/Basket.API/Data/CachedBasketRepository.cs</url>
+          <line>17</line>
+          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\Data\CachedBasketRepository.cs" containingFunctionPresentation="Method 'GetBasket'">
             <startOffsets>
-              <option value="367" />
+              <option value="566" />
             </startOffsets>
             <endOffsets>
-              <option value="417" />
+              <option value="642" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/Behaviours/ValidationBehaviour.cs</url>
-          <line>20</line>
-          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\BuildingBlocks\BuildingBlocks\Behaviours\ValidationBehaviour.cs" containingFunctionPresentation="Method 'Handle'">
+          <url>file://$PROJECT_DIR$/Services/Basket/Basket.API/Data/CachedBasketRepository.cs</url>
+          <line>29</line>
+          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\Data\CachedBasketRepository.cs" containingFunctionPresentation="Method 'StoreBasket'">
             <startOffsets>
-              <option value="594" />
+              <option value="1115" />
             </startOffsets>
             <endOffsets>
-              <option value="649" />
+              <option value="1178" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="25" />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Basket/Basket.API/Data/CachedBasketRepository.cs</url>
+          <line>38</line>
+          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\Data\CachedBasketRepository.cs" containingFunctionPresentation="Method 'DeleteBasket'">
+            <startOffsets>
+              <option value="1437" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1503" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,5 +1,24 @@
 # This is a generated file. Not intended for manual editing.
 services:
+  basket.api:
+    build:
+      context: "C:\\Users\\User\\Desktop\\projects\\ecommerce-microservices\\src"
+      dockerfile: "Services/Basket/Basket.API/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/Basket.API.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "basket.api:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\User\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\Users\\User\\Desktop\\projects\\ecommerce-microservices\\src\\Services\\\
+      Basket\\Basket.API:/app:rw"
+    - "C:\\Users\\User\\Desktop\\projects\\ecommerce-microservices\\src:/src:rw"
+    working_dir: "/app"
   catalog.api:
     build:
       context: "C:\\Users\\User\\Desktop\\projects\\ecommerce-microservices\\src"

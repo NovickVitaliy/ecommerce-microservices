@@ -174,3 +174,14 @@ C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Baske
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\Scrutor.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\HealthChecks.NpgSql.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\HealthChecks.Redis.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\HealthChecks.UI.Client.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\HealthChecks.UI.Core.dll
