@@ -14,6 +14,12 @@
       context: .
       dockerfile: Services/Basket/Basket.API/Dockerfile
   
+  discount.grpc:
+    image: discount.grpc
+    build:
+      context: .
+      dockerfile: Services/Discount/Discount.Grpc/Dockerfile
+  
   catalog.api:
     image: catalog.api
     build:

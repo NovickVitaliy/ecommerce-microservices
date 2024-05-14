@@ -19,24 +19,150 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59534878-ef91-416e-9611-556841c4820f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Protos/discount.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Data/DiscountContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Data/Extensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Mono.TextTemplating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/SQLitePCLRaw.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/SQLitePCLRaw.provider.e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/System.CodeDom.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/System.Composition.Convention.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/System.Composition.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/System.Composition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/System.Composition.TypedParts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/browser-wasm/nativeassets/net8.0/e_sqlite3.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/linux-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/linux-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/linux-armel/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/linux-mips64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/linux-musl-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/linux-musl-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/linux-ppc64le/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/linux-s390x/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/linux-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/linux-x86/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/osx-arm64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/osx-x64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/win-arm64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Discount.Grpc.csproj.EntityFrameworkCore.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Discount.Grpc.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Discount.Grpc.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Protos/greet.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/GreeterService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Protos/discount.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Protos/discount.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/ref/Discount.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/ref/Discount.Grpc.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/refint/Discount.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/refint/Discount.Grpc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Discount.Grpc.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Discount.Grpc.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Discount.Grpc.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Discount.Grpc.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Discount.Grpc.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Discount.Grpc.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +190,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9f4b1f5d664afdfc80e1508ab7ed099dff210fbd/src/libraries/System.Text.Json/src/System/Text/Json/Serialization/Converters/Object/ObjectDefaultConverter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d882146b4f265f10bcbec2663fce248db9ffec5fa1aeaf76e32a11ba5eafcd6/MethodBaseInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/Desktop/projects/ecommerce-microservices/src/Services/Discount/Discount.Grpc/Services/DiscountService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -84,34 +211,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Basket.API: https.executor": "Run",
-    ".NET Launch Settings Profile.Catalog.API: https.executor": "Debug",
-    ".NET Launch Settings Profile.Discount.Grpc: https.executor": "Debug",
-    "Docker.docker-compose.override.yml: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.29801324",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Basket.API: https.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.Catalog.API: https.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.Discount.Grpc: https.executor&quot;: &quot;Debug&quot;,
+    &quot;Docker.docker-compose.override.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.294702&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\User\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\User\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RiderProblemsViewState">
     <option name="proportion" value="0.5363766" />
   </component>
@@ -360,6 +487,27 @@
       <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Discount.Grpc/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="discount.grpc" />
+          <option name="containerName" value="discount.grpc" />
+          <option name="contextFolderPath" value="C:\Users\User\Desktop\projects\ecommerce-microservices\src" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Services/Discount/Discount.Grpc/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -412,6 +560,7 @@
       <item itemvalue=".NET Launch Settings Profile.Catalog.API: IIS Express" />
       <item itemvalue=".NET Project.Catalog.API" />
       <item itemvalue="Docker.Basket.API/Dockerfile" />
+      <item itemvalue="Docker.Discount.Grpc/Dockerfile" />
       <item itemvalue="Docker.Catalog.API/Dockerfile" />
       <item itemvalue="Docker.Catalog.API/Dockerfile (1)" />
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
@@ -438,7 +587,8 @@
       <workItem from="1715537266577" duration="8861000" />
       <workItem from="1715605257976" duration="19022000" />
       <workItem from="1715673141440" duration="213000" />
-      <workItem from="1715673384951" duration="14265000" />
+      <workItem from="1715673384951" duration="17537000" />
+      <workItem from="1715716965223" duration="2069000" />
     </task>
     <servers />
   </component>
@@ -543,6 +693,45 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs</url>
+          <line>22</line>
+          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Discount\Discount.Grpc\Services\DiscountService.cs" containingFunctionPresentation="Method 'GetDiscount'">
+            <startOffsets>
+              <option value="661" />
+            </startOffsets>
+            <endOffsets>
+              <option value="773" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs</url>
+          <line>37</line>
+          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Discount\Discount.Grpc\Services\DiscountService.cs" containingFunctionPresentation="Method 'CreateDiscount'">
+            <startOffsets>
+              <option value="1269" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1313" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs</url>
+          <line>54</line>
+          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Discount\Discount.Grpc\Services\DiscountService.cs" containingFunctionPresentation="Method 'UpdateDiscount'">
+            <startOffsets>
+              <option value="1860" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1904" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
