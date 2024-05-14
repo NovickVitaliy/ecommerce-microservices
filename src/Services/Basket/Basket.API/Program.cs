@@ -1,12 +1,12 @@
 using BuildingBlocks.Behaviours;
 using BuildingBlocks.Exceptions.Handler;
+using Discount.Grpc;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
 var builder = WebApplication.CreateBuilder(args);
 var assembly = typeof(Program).Assembly;
 
-builder.Services.AddValidatorsFromAssembly(assembly);
 
 builder.Services.AddMarten(cfg =>
     {
@@ -36,9 +36,16 @@ builder.Services.AddStackExchangeRedisCache(options =>
     options.InstanceName = "Basket";
 });
 
+builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>(options =>
+{
+    options.Address = new Uri(builder.Configuration["GrpcDiscount:DiscountUrl"]!);
+});
+
 builder.Services.AddHealthChecks()
     .AddNpgSql(builder.Configuration.GetConnectionString("Database")!)
     .AddRedis(builder.Configuration.GetConnectionString("Redis")!);
+
+builder.Services.AddValidatorsFromAssembly(assembly);
 
 var app = builder.Build();
 
