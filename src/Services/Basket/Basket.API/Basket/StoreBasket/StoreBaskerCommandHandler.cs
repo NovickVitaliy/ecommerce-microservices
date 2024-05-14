@@ -1,4 +1,3 @@
-
 namespace Basket.API.Basket.StoreBasket;
 
 public record StoreBasketCommand(ShoppingCart Cart) : ICommand<StoreBasketResult>;
@@ -19,13 +18,17 @@ public class StoreBasketCommandValidator : AbstractValidator<StoreBasketCommand>
 
 public class StoreBaskerCommandHandler : ICommandHandler<StoreBasketCommand, StoreBasketResult>
 {
+    private readonly IBasketRepository _basketRepository;
+
+    public StoreBaskerCommandHandler(IBasketRepository basketRepository)
+    {
+        _basketRepository = basketRepository;
+    }
+
     public async Task<StoreBasketResult> Handle(StoreBasketCommand command, CancellationToken cancellationToken)
     {
-        ShoppingCart cart = command.Cart;
-                
-        //TODO: store basket in database
-        //TODO: update cache
+        await _basketRepository.StoreBasket(command.Cart, cancellationToken);
 
-        return new StoreBasketResult("swn");
+        return new StoreBasketResult(command.Cart.UserName);
     }
 }
