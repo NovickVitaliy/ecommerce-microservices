@@ -3,7 +3,7 @@ namespace Basket.API.Data;
 public class BasketRepository : IBasketRepository
 {
     private readonly IDocumentSession _documentSession;
-
+    
     public BasketRepository(IDocumentSession documentSession)
     {
         _documentSession = documentSession;

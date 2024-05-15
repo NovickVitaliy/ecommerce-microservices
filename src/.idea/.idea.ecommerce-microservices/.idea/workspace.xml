@@ -18,49 +18,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59534878-ef91-416e-9611-556841c4820f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/StoreBasket/StoreBaskerCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Basket/StoreBasket/StoreBaskerCommandHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/Basket.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/Basket.API.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/Basket.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/Basket.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/Basket.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/Basket.API.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/Basket.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/Basket.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Basket.API.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/ref/Basket.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/ref/Basket.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/refint/Basket.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/refint/Basket.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/ref/Discount.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/ref/Discount.Grpc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/refint/Discount.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/refint/Discount.Grpc.dll" afterDir="false" />
-    </list>
+    <list default="true" id="59534878-ef91-416e-9611-556841c4820f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +44,8 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9f4b1f5d664afdfc80e1508ab7ed099dff210fbd/src/libraries/System.Text.Json/src/System/Text/Json/Serialization/Converters/Object/ObjectDefaultConverter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/18d65259b2e847409d29119455276e16352e7ceb9367721ffc4c5996ea4c/UnaryServerCallHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bd1d5c50194fea68ff3559c160230b0ab50f5acf4ce3061bffd6d62958e2182/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d882146b4f265f10bcbec2663fce248db9ffec5fa1aeaf76e32a11ba5eafcd6/MethodBaseInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Basket/Basket.API/Basket/StoreBasket/StoreBaskerCommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/User/Desktop/projects/ecommerce-microservices/src/Services/Discount/Discount.Grpc/Services/DiscountService.cs" root0="SKIP_HIGHLIGHTING" />
@@ -121,7 +81,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.294702",
+    "XThreadsFramesViewSplitterKey": "0.14217253",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -142,7 +102,7 @@
   <component name="RiderProblemsViewState">
     <option name="proportion" value="0.5363766" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Discount.Grpc: https">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="Catalog.API" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -488,7 +448,7 @@
       <workItem from="1715605257976" duration="19022000" />
       <workItem from="1715673141440" duration="213000" />
       <workItem from="1715673384951" duration="17537000" />
-      <workItem from="1715716965223" duration="4833000" />
+      <workItem from="1715716965223" duration="5649000" />
     </task>
     <servers />
   </component>
@@ -543,58 +503,6 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Services/Basket/Basket.API/Basket/GetBasket/GetBasketEndpoint.cs</url>
-          <line>12</line>
-          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\Basket\GetBasket\GetBasketEndpoint.cs" containingFunctionPresentation="Lambda expression inside Method 'AddRoutes'">
-            <startOffsets>
-              <option value="380" />
-            </startOffsets>
-            <endOffsets>
-              <option value="424" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Services/Basket/Basket.API/Data/CachedBasketRepository.cs</url>
-          <line>17</line>
-          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\Data\CachedBasketRepository.cs" containingFunctionPresentation="Method 'GetBasket'">
-            <startOffsets>
-              <option value="566" />
-            </startOffsets>
-            <endOffsets>
-              <option value="642" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Services/Basket/Basket.API/Data/CachedBasketRepository.cs</url>
-          <line>29</line>
-          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\Data\CachedBasketRepository.cs" containingFunctionPresentation="Method 'StoreBasket'">
-            <startOffsets>
-              <option value="1115" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1178" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Services/Basket/Basket.API/Data/CachedBasketRepository.cs</url>
-          <line>38</line>
-          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\Data\CachedBasketRepository.cs" containingFunctionPresentation="Method 'DeleteBasket'">
-            <startOffsets>
-              <option value="1437" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1503" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs</url>
           <line>37</line>
           <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Discount\Discount.Grpc\Services\DiscountService.cs" containingFunctionPresentation="Method 'CreateDiscount'">
@@ -619,32 +527,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Services/Basket/Basket.API/Basket/StoreBasket/StoreBaskerCommandHandler.cs</url>
-          <line>32</line>
-          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\Basket\StoreBasket\StoreBaskerCommandHandler.cs" containingFunctionPresentation="Method 'Handle'">
-            <startOffsets>
-              <option value="1158" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1212" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Services/Discount/Discount.Grpc/Services/DiscountService.cs</url>
-          <line>22</line>
-          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Discount\Discount.Grpc\Services\DiscountService.cs" containingFunctionPresentation="Method 'GetDiscount'">
-            <startOffsets>
-              <option value="661" />
-            </startOffsets>
-            <endOffsets>
-              <option value="773" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
