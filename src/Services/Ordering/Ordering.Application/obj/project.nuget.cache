@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6Le91YggksBZI92QndyPTEU3oOiFIPohRpcabwnnkHX7y5I9wid4uqVucO4JEW7xtra8P+gYBRqxeyOK4dAqwQ==",
+  "dgSpecHash": "G7TRqhJAsp5+WfBjsoSunFWos7Hg8z4y8ovLwMfe8fBH2ynzx/HjrXr1Ywxb23iG7l1Y0YOiFlR4z3x78VXUsw==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\projects\\ecommerce-microservices\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
   "expectedPackageFiles": [
