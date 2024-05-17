@@ -22,28 +22,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59534878-ef91-416e-9611-556841c4820f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Abstractions/Aggregate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Abstractions/Entity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Abstractions/IAggregate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Abstractions/IDomainEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Abstractions/IEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Enums/OrderStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Events/OrderCreatedEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Events/OrderUpdatedEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Exceptions/DomainException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/GlobalUsings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Models/Customer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Models/Order.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Models/OrderItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Models/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/ValueObjects/Address.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/ValueObjects/CustomerId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/ValueObjects/OrderId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/ValueObjects/OrderItemId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/ValueObjects/OrderName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/ValueObjects/Payment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/ValueObjects/ProductId.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Data/ApplicationDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" afterDir="false" />
@@ -58,30 +37,30 @@
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Ordering.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Ordering.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Ordering.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Ordering.API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Ordering.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Ordering.API.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Ordering.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Ordering.Application.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/Ordering.Domain.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Ordering.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Ordering.Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Ordering.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Ordering.Infrastructure.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Ordering.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Ordering.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -565,6 +544,7 @@
       <workItem from="1715716965223" duration="5649000" />
       <workItem from="1715768062377" duration="8729000" />
       <workItem from="1715871278204" duration="9375000" />
+      <workItem from="1715934782421" duration="2751000" />
     </task>
     <servers />
   </component>
