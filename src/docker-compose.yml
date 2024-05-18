@@ -8,6 +8,9 @@
   distributedcache:
     image: redis
   
+  orderdb:
+    image: mcr.microsoft.com/mssql/server
+  
   basket.api:
     image: basket.api
     build:
@@ -25,6 +28,7 @@
     build:
       context: .
       dockerfile: Services/Catalog/Catalog.API/Dockerfile
+  
   
   
 volumes:

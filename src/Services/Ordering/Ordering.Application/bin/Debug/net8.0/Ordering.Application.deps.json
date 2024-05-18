@@ -100,6 +100,9 @@
         }
       },
       "Ordering.Domain/1.0.0": {
+        "dependencies": {
+          "MediatR": "12.2.0"
+        },
         "runtime": {
           "Ordering.Domain.dll": {}
         }

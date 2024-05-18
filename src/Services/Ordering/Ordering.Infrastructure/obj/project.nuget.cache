@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C8Rmw+QJf6L6WtBvdzBRGHPCT0R0y0hpYtLHyy5wjYWtW97r8h0d80n2Fu2JzsSB+owDY0zeBaTMcprdW24Zng==",
+  "dgSpecHash": "4a7WiyiDPezjGpu2qQapjMaYLKUroJm7AieZM9Nm3w3w0bZqP+3XQWxopU2bNoCDbpztZA5TFXInGo0pBeSlGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\projects\\ecommerce-microservices\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
   "expectedPackageFiles": [

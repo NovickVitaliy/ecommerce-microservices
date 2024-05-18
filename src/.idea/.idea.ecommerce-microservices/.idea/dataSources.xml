@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="discountdb" uuid="2b63fdd0-67f6-4097-a2ef-f7cff2df17e3">
-      <driver-ref>sqlite.xerial</driver-ref>
+      <driver-ref>5063a992-9bb2-433e-b30a-43a21d7b29ca</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Discount\Discount.Grpc\discountdb</jdbc-url>
@@ -30,6 +30,13 @@
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.43.0/org/xerial/sqlite-jdbc/3.43.0.0/_remote.repositories</url>
         </library>
       </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost" uuid="de255a3b-9792-42d1-8750-5c53b327d3a9">
+      <driver-ref>sqlserver.jb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.jetbrains.jdbc.sqlserver.SqlServerDriver</jdbc-driver>
+      <jdbc-url>Server=localhost,1433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
 </project>

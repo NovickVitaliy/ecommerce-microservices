@@ -1614,6 +1614,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "BuildingBlocks": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.5",
           "Ordering.Domain": "1.0.0"
         },
         "compile": {

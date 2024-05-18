@@ -10,3 +10,4 @@ C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ord
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\refint\Ordering.Domain.dll
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.pdb
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\ref\Ordering.Domain.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.csproj.AssemblyReference.cache
