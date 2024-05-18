@@ -22,192 +22,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59534878-ef91-416e-9611-556841c4820f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/Pagination/PaginatedResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/Pagination/PaginationRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Data/IApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Dtos/AddressDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Dtos/OrderDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Dtos/OrderItemDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Dtos/PaymentDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Exceptions/OrderNotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Extensions/Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Commands/CreateOrder/CreateOrderCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Commands/CreateOrder/CreateOrderHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Commands/DeleteOrder/DeleteOrderCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Commands/DeleteOrder/DeleteOrderHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Commands/UpdateOrder/UpdateOrderCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Commands/UpdateOrder/UpdateOrderHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/EventHandlers/OrderCreatedEventHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/EventHandlers/OrderUpdatedEventHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrders/GetOrdersHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrders/GetOrdersQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrdersByCustomer/GetOrdersByCustomerHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrdersByCustomer/GetOrdersByCustomerQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrdersByName/GetOrdersByNameHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Orders/Queries/GetOrdersByName/GetOrdersByNameQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Data/Extensions/DatabaseExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Data/Extensions/InitialData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Data/Interceptors/AuditableEntityInterceptor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Data/Interceptors/DispatchDomainEventInterceptor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/CreateOrder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/DeleteOrder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/GetOrders.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/GetOrdersByCustomer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/GetOrdersByName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/UpdateOrder.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/Docker/docker-compose.generated.override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ecommerce-microservices/Docker/docker-compose.generated.override.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/Exceptions/Handler/CustomExceptionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/Exceptions/Handler/CustomExceptionHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/BuildingBlocks/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/bin/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/Debug/net8.0/Basket.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Basket/Basket.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/bin/Debug/net8.0/Catalog.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/ref/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/ref/Catalog.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/refint/Catalog.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/Debug/net8.0/refint/Catalog.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Catalog/Catalog.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/bin/Debug/net8.0/Discount.Grpc.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/Discount.Grpc.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/ref/Discount.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/ref/Discount.Grpc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/refint/Discount.Grpc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/Debug/net8.0/refint/Discount.Grpc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Discount/Discount.Grpc/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/DependencyInjection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Ordering.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Ordering.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.API.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.API.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.API.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.API.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/Ordering.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/bin/Debug/net8.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/Ordering.API.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/ref/Ordering.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/ref/Ordering.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/refint/Ordering.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Debug/net8.0/refint/Ordering.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Ordering.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Ordering.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Ordering.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Ordering.API.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Ordering.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/Ordering.API.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/DependencyInjection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Ordering.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/Ordering.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/Ordering.Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/Ordering.Application.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/Ordering.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/Ordering.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/Ordering.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/Ordering.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/Ordering.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/Ordering.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/Ordering.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/bin/Debug/net8.0/Ordering.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/Ordering.Application.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/ref/Ordering.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/ref/Ordering.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/refint/Ordering.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Debug/net8.0/refint/Ordering.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Ordering.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Ordering.Application.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Ordering.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Ordering.Application.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Ordering.Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/Ordering.Application.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/bin/Debug/net8.0/Ordering.Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/bin/Debug/net8.0/Ordering.Domain.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/bin/Debug/net8.0/Ordering.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/bin/Debug/net8.0/Ordering.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/bin/Debug/net8.0/Ordering.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/bin/Debug/net8.0/Ordering.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/Ordering.Domain.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/ref/Ordering.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/ref/Ordering.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/refint/Ordering.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/Debug/net8.0/refint/Ordering.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/DependencyInjection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/BuildingBlocks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/BuildingBlocks.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/BuildingBlocks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/BuildingBlocks.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Infrastructure.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/bin/Debug/net8.0/Ordering.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/Ordering.Infrastructure.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/ref/Ordering.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/ref/Ordering.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/refint/Ordering.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Debug/net8.0/refint/Ordering.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Ordering.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/Ordering.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Ordering/Ordering.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.override.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce-microservices.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce-microservices.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -824,6 +679,45 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/GetOrders.cs</url>
+          <line>19</line>
+          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.API\Endpoints\GetOrders.cs" containingFunctionPresentation="Lambda expression inside Method 'AddRoutes'">
+            <startOffsets>
+              <option value="555" />
+            </startOffsets>
+            <endOffsets>
+              <option value="597" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/DeleteOrder.cs</url>
+          <line>17</line>
+          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.API\Endpoints\DeleteOrder.cs" containingFunctionPresentation="Lambda expression inside Method 'AddRoutes'">
+            <startOffsets>
+              <option value="434" />
+            </startOffsets>
+            <endOffsets>
+              <option value="471" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/Ordering/Ordering.API/Endpoints/CreateOrder.cs</url>
+          <line>18</line>
+          <properties documentPath="C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.API\Endpoints\CreateOrder.cs" containingFunctionPresentation="Lambda expression inside Method 'AddRoutes'">
+            <startOffsets>
+              <option value="470" />
+            </startOffsets>
+            <endOffsets>
+              <option value="512" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
