@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "H1FDnAqALaqDE411R6tvxXk2LvI96p3KR8FzFfbpJph3FynNrT/DsQQw/UwYxuf1f64XAFWTL6jqkGSN0u0vWA==",
+  "dgSpecHash": "eGB9p7PErO/4Vx713U5Ov0LiGtrtGUmjXXVf/tEVUn0cCpGajv6JsqVAP6CPfuDQB1V9u5jOrGIed4DZtbnJVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\projects\\ecommerce-microservices\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,20 @@
     "C:\\Users\\User\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.1.2\\microsoft.extensions.caching.abstractions.2.1.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.1.23\\microsoft.extensions.caching.memory.2.1.23.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.1\\microsoft.extensions.configuration.2.1.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.1\\microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.10\\microsoft.extensions.configuration.binder.2.1.10.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging\\2.1.1\\microsoft.extensions.logging.2.1.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.1\\microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.options\\2.1.1\\microsoft.extensions.options.2.1.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.1\\microsoft.extensions.primitives.2.1.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.featuremanagement\\3.3.0\\microsoft.featuremanagement.3.3.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.featuremanagement.aspnetcore\\3.3.0\\microsoft.featuremanagement.aspnetcore.3.3.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -11,6 +11,9 @@
   orderdb:
     image: mcr.microsoft.com/mssql/server
   
+  messagebroker:
+    image: rabbitmq:management
+  
   basket.api:
     image: basket.api
     build:
@@ -29,6 +32,11 @@
       context: .
       dockerfile: Services/Catalog/Catalog.API/Dockerfile
   
+  ordering.api:
+    image: ordering.api
+    build:
+      context: .
+      dockerfile: Services/Ordering/Ordering.API/Dockerfile
   
   
 volumes:

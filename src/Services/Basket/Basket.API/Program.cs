@@ -1,12 +1,12 @@
 using BuildingBlocks.Behaviours;
 using BuildingBlocks.Exceptions.Handler;
+using BuildingBlocks.Messaging.MassTransit;
 using Discount.Grpc;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
 var builder = WebApplication.CreateBuilder(args);
 var assembly = typeof(Program).Assembly;
-
 
 builder.Services.AddMarten(cfg =>
     {
@@ -46,6 +46,8 @@ builder.Services.AddHealthChecks()
     .AddRedis(builder.Configuration.GetConnectionString("Redis")!);
 
 builder.Services.AddValidatorsFromAssembly(assembly);
+
+builder.Services.AddMessageBroker(builder.Configuration);
 
 var app = builder.Build();
 

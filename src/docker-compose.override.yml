@@ -38,6 +38,17 @@ services:
     ports:
       - "1433:1433"
   
+  messagebroker:
+    container_name: messagebroker
+    hostname: eccomerce-mq
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+  
   basket.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
@@ -45,10 +56,14 @@ services:
       - ConnectionStrings__Database=Server=catalogdb;Port=5432;Database=CatalogDb;User Id=postgres;Password=postgres;Include Error Detail=true
       - ConnectionStrings__Redis=distributedcache:6379
       - GrpcDiscount__DiscountUrl=http://discount.grpc:8080
+      - MessageBroker__Host=amqp://eccomerce-mq:5672
+      - MessageBroker_UserName=guest
+      - MessageBroker_Password=guest
     depends_on:
       - distributedcache
       - basketdb
       - discount.grpc
+      - messagebroker
     ports:
       - "6001:8080"
     volumes:
@@ -75,6 +90,23 @@ services:
       - ConnectionStrings__Database=Data Source=discountdb
     ports:
       - "6002:8080"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+  
+  ordering.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__Database=Server=orderdb;Database=OrderDb;User Id=sa;Password=SwN12345678;Encrypt=False;TrustServerCertificate=True
+      - MessageBroker__Host=amqp://eccomerce-mq:5672
+      - MessageBroker_UserName=guest
+      - MessageBroker_Password=guest
+    depends_on:
+      - orderdb
+      - messagebroker
+    ports:
+      - "6003:8080"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
