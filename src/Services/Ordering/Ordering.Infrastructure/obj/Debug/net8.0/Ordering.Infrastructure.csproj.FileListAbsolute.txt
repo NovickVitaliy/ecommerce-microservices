@@ -20,3 +20,5 @@ C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ord
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\ref\Ordering.Infrastructure.dll
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\Ordering.Infrastructure.runtimeconfig.json
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net8.0\Ordering.Infrastructure.genruntimeconfig.cache
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\BuildingBlocks.Messaging.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net8.0\BuildingBlocks.Messaging.pdb

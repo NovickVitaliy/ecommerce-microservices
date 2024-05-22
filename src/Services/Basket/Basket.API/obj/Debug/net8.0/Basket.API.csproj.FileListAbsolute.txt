@@ -192,3 +192,11 @@ C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Baske
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.Client.dll
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\MassTransit.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.FeatureManagement.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.FeatureManagement.AspNetCore.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\BuildingBlocks.Messaging.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Basket\Basket.API\bin\Debug\net8.0\BuildingBlocks.Messaging.pdb

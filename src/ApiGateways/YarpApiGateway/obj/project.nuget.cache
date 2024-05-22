@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/cJL890UejkrVzmeZ2tN1q3KFQjU0Oy5684Hur5nwy2QZTJOo6BchP60EFT+hQMFAH2/CxCTb4YSzX58VG6S8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Desktop\\projects\\ecommerce-microservices\\src\\ApiGateways\\YarpApiGateway\\YarpApiGateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\system.io.hashing\\7.0.0\\system.io.hashing.7.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\yarp.reverseproxy\\2.1.0\\yarp.reverseproxy.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

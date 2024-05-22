@@ -16,3 +16,5 @@ C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ord
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Application\obj\Debug\net8.0\refint\Ordering.Application.dll
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Application\obj\Debug\net8.0\Ordering.Application.pdb
 C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Application\obj\Debug\net8.0\ref\Ordering.Application.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Application\bin\Debug\net8.0\BuildingBlocks.Messaging.dll
+C:\Users\User\Desktop\projects\ecommerce-microservices\src\Services\Ordering\Ordering.Application\bin\Debug\net8.0\BuildingBlocks.Messaging.pdb
